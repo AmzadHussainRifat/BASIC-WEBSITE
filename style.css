@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+	font-weight: bold;
+	font-size :30px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #71AA34;
+    background-color: #FFFFFF;
+	background-image: url('rename.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	
+}
+	
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #71AA34;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.donation-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color:  #00701D; /* Green background color */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 25px; /* Font size */
+    border: none; /* Remove border */
+    border-radius: 7px; /* Rounded corners */
+	font-weight: bold;
+   
+}
+br {
+   display: block;
+   content: " ";
+   margin: 5px ;
+}
+.text-on-image h1 {
+    font-size: 70px; /* Example font size */
+    color: #ffffff; /* Example text color */
+    margin-bottom: 10px; /* Example margin */
+	position : absolute;
+	top : 285%;
+	right :220px;
+}
+.vl{
+	border-left :10px solid Green;
+	height:140px;
+	position : absolute;
+	top : 300%;
+	right :93%;
+}
+
+.text-on-image h2 {
+    font-size: 18px; /* Example font size */
+    color: #ffffff; /* Example text color */
+    margin-bottom: 20px; /* Example margin */
+}
+/* Hover effect */
+.donation-button:hover {
+    background-color: #ffffff; /* Darker green */
+	color: #808080
+}
+
+.donation-button {
+  position: absolute;
+  left: 580px;
+  top: 500px;
+}
+
+
